@@ -99,7 +99,7 @@ class TestimonialModel(models.Model):
       verbose_name_plural = "Testimoniallar"
 
    def __str__(self) -> str:
-      return self.title
+      return self.name
    
 class ContactModel(models.Model):
    name = models.CharField("Ad", max_length=256)
